@@ -1,0 +1,5 @@
+#!/bin/bash
+# Bazzite is Fedora Atomic; reuse Fedora dependency lists for native ./build_linux.sh builds.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=fedora
+source "${SCRIPT_DIR}/fedora"

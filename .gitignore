@@ -1,0 +1,5 @@
+OrcaSlicer-src/
+build_flatpak/
+.flatpak-builder/
+*.flatpak
+*.AppImage
